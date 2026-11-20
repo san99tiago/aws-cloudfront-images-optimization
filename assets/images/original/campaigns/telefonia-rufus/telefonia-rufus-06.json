@@ -1,0 +1,16 @@
+{
+  "campaign": "telefonia-rufus",
+  "campaign_name": "Telefonía Rufus",
+  "image_id": "telefonia-rufus-06",
+  "title": "Equipos al 0%",
+  "subtitle": "Estrena celular a 12 cuotas sin interés",
+  "cta": "Ver equipos",
+  "alt": "Pop-up de Telefonía Rufus: Equipos al 0%. Estrena celular a 12 cuotas sin interés.",
+  "prompt": "Vertical 2:3 mobile app pop-up banner for 'Rufus Bank', a fictional, modern and friendly digital bank. Brand mark: a bold geometric letter 'R' monogram with a soft gradient next to the wordmark 'Rufus Bank'. Campaign: 'Telefonía Rufus'. Scene: a premium smartphone on a glossy pedestal under a spotlight with a big floating 0% badge. Art direction: premium glossy 3D render, soft studio lighting, subtle depth of field, electric cyan (#00D1FF) and deep navy (#0A1A3F) palette with soft neon glows, clean and modern composition with generous negative space, high-end marketing quality. Layout: the 'Rufus Bank' brand mark at the top center; a small campaign label 'TELEFONÍA RUFUS'; a big bold headline 'Equipos al 0%'; one short subtitle 'Estrena celular a 12 cuotas sin interés'; a rounded call to action button that reads 'Ver equipos' at the bottom; a small close (X) icon in the top right corner like an in-app pop-up. All text in Spanish, spelled exactly as given including accents. No other text. No real brands, no real logos, no real people.",
+  "generator": {
+    "provider": "openai",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1024x1536"
+  }
+}

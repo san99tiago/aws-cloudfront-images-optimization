@@ -1,0 +1,16 @@
+{
+  "campaign": "telefonia-rufus",
+  "campaign_name": "Telefonía Rufus",
+  "image_id": "telefonia-rufus-04",
+  "title": "Roaming sin fronteras",
+  "subtitle": "Tus datos te acompañan en 120 países",
+  "cta": "Viaja conectado",
+  "alt": "Pop-up de Telefonía Rufus: Roaming sin fronteras. Tus datos te acompañan en 120 países.",
+  "prompt": "Vertical 2:3 mobile app pop-up banner for 'Rufus Bank', a fictional, modern and friendly digital bank. Brand mark: a bold geometric letter 'R' monogram with a soft gradient next to the wordmark 'Rufus Bank'. Campaign: 'Telefonía Rufus'. Scene: a glowing globe with curved flight paths, a passport and a smartphone with full signal bars. Art direction: premium glossy 3D render, soft studio lighting, subtle depth of field, electric cyan (#00D1FF) and deep navy (#0A1A3F) palette with soft neon glows, clean and modern composition with generous negative space, high-end marketing quality. Layout: the 'Rufus Bank' brand mark at the top center; a small campaign label 'TELEFONÍA RUFUS'; a big bold headline 'Roaming sin fronteras'; one short subtitle 'Tus datos te acompañan en 120 países'; a rounded call to action button that reads 'Viaja conectado' at the bottom; a small close (X) icon in the top right corner like an in-app pop-up. All text in Spanish, spelled exactly as given including accents. No other text. No real brands, no real logos, no real people.",
+  "generator": {
+    "provider": "openai",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1024x1536"
+  }
+}

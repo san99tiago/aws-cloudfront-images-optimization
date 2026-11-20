@@ -1,0 +1,16 @@
+{
+  "campaign": "telefonia-rufus",
+  "campaign_name": "Telefonía Rufus",
+  "image_id": "telefonia-rufus-03",
+  "title": "eSIM en 1 minuto",
+  "subtitle": "Activa tu línea sin salir de casa",
+  "cta": "Pide tu eSIM",
+  "alt": "Pop-up de Telefonía Rufus: eSIM en 1 minuto. Activa tu línea sin salir de casa.",
+  "prompt": "Vertical 2:3 mobile app pop-up banner for 'Rufus Bank', a fictional, modern and friendly digital bank. Brand mark: a bold geometric letter 'R' monogram with a soft gradient next to the wordmark 'Rufus Bank'. Campaign: 'Telefonía Rufus'. Scene: a sleek smartphone with a holographic glowing eSIM chip floating above it and a small stopwatch. Art direction: premium glossy 3D render, soft studio lighting, subtle depth of field, electric cyan (#00D1FF) and deep navy (#0A1A3F) palette with soft neon glows, clean and modern composition with generous negative space, high-end marketing quality. Layout: the 'Rufus Bank' brand mark at the top center; a small campaign label 'TELEFONÍA RUFUS'; a big bold headline 'eSIM en 1 minuto'; one short subtitle 'Activa tu línea sin salir de casa'; a rounded call to action button that reads 'Pide tu eSIM' at the bottom; a small close (X) icon in the top right corner like an in-app pop-up. All text in Spanish, spelled exactly as given including accents. No other text. No real brands, no real logos, no real people.",
+  "generator": {
+    "provider": "openai",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1024x1536"
+  }
+}

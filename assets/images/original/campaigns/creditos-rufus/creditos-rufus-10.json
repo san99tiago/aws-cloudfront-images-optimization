@@ -1,0 +1,16 @@
+{
+  "campaign": "creditos-rufus",
+  "campaign_name": "Créditos Rufus",
+  "image_id": "creditos-rufus-10",
+  "title": "Aprobado en minutos",
+  "subtitle": "Respuesta 100% digital desde la app",
+  "cta": "Empieza ya",
+  "alt": "Pop-up de Créditos Rufus: Aprobado en minutos. Respuesta 100% digital desde la app.",
+  "prompt": "a glossy golden check mark symbol next to a classic golden stopwatch with golden confetti. Hero artwork for a mobile app marketing pop-up of a fictional modern digital bank. Premium glossy 3D render, soft studio lighting, subtle depth of field, warm amber gold (#FFB020) and deep navy (#0A1A3F) palette, elegant and trustworthy, single hero subject centered with breathing room around it, high-end marketing quality, no text.",
+  "generator": {
+    "provider": "amazon-bedrock",
+    "model": "stability.stable-image-ultra-v1:1",
+    "composition": "scripts/popup_composer.py (Pillow text overlay)",
+    "size": "1024x1536"
+  }
+}

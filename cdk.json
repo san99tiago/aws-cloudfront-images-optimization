@@ -1,0 +1,116 @@
+{
+  "app": "make --no-print-directory --silent install-layers && .venv/bin/python3 infrastructure/cdk/app.py",
+  "watch": {
+    "include": [
+      "infrastructure/**",
+      "backend/**",
+      "cloudfront/**"
+    ],
+    "exclude": [
+      "**/__pycache__",
+      "**/*.pyc",
+      "cdk.out"
+    ]
+  },
+  "context": {
+    "@aws-cdk/core:defaultCrossStackReferences": "strong",
+    "tags": {
+      "Owner": "Santiago Garcia Arango",
+      "Source": "https://github.com/san99tiago/aws-cloudfront-images-optimization",
+      "Usage": "Rufus Bank App Images Optimization: S3 + Lambda + CloudFront best practices demo"
+    },
+    "app_config": {
+      "dev": {
+        "main_resources_name": "cloudfront-images-optimization",
+        "deployment_environment": "dev",
+        "log_level": "INFO",
+        "images": {
+          "widths": [
+            320,
+            480,
+            640,
+            768,
+            1024
+          ],
+          "default_width": 640,
+          "formats": [
+            "avif",
+            "webp",
+            "jpeg"
+          ],
+          "quality_profiles": {
+            "standard": {
+              "avif": 60,
+              "webp": 78,
+              "jpeg": 80
+            },
+            "lite": {
+              "avif": 40,
+              "webp": 55,
+              "jpeg": 60
+            }
+          },
+          "browser_max_age_seconds": 1800,
+          "edge_s_maxage_seconds": 31536000,
+          "edge_min_ttl_seconds": 86400,
+          "edge_default_ttl_seconds": 2592000,
+          "edge_max_ttl_seconds": 31536000,
+          "price_class": "PRICE_CLASS_ALL",
+          "origin_shield_enabled": true,
+          "server_timing_sampling_rate": 100,
+          "optimizer_memory_mb": 3008,
+          "optimizer_timeout_seconds": 300
+        },
+        "campaigns": {
+          "telefonia-rufus": {
+            "name": "Telefonía Rufus",
+            "audience": "ALL"
+          },
+          "rufus-bolsillos-rentables": {
+            "name": "Rufus Bolsillos Rentables",
+            "audience": "LOW"
+          },
+          "creditos-rufus": {
+            "name": "Créditos Rufus",
+            "audience": "MEDIUM"
+          },
+          "cryptomonedas-rufus": {
+            "name": "CryptoMonedas Rufus",
+            "audience": "HIGH"
+          }
+        },
+        "demo_users": [
+          {
+            "email": "santigrc@amazon.com",
+            "name": "Santiago Garcia",
+            "role": "Arquitecto AWS",
+            "score": 500,
+            "risk_profile": "HIGH"
+          },
+          {
+            "email": "danilopera@example.com",
+            "name": "Daniel Lopera",
+            "role": "Gerente Producto Nequi",
+            "score": 999,
+            "risk_profile": "LOW"
+          },
+          {
+            "email": "juanca@example.com",
+            "name": "Juan Camilo Cática",
+            "role": "Data Architect",
+            "score": 700,
+            "risk_profile": "MEDIUM"
+          }
+        ],
+        "demo_users_seed_version": "1",
+        "enable_waf": true,
+        "waf_rate_limit_images_per_5_min": 3000,
+        "waf_rate_limit_web_per_5_min": 1000,
+        "enable_standard_logs": true,
+        "enable_additional_metrics": true,
+        "api_throttling_rate_limit": 50,
+        "api_throttling_burst_limit": 100
+      }
+    }
+  }
+}

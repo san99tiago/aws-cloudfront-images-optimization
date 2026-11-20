@@ -1,0 +1,16 @@
+{
+  "campaign": "telefonia-rufus",
+  "campaign_name": "Telefonía Rufus",
+  "image_id": "telefonia-rufus-05",
+  "title": "Recarga y gana",
+  "subtitle": "Cada recarga suma Puntos Rufus",
+  "cta": "Recarga ahora",
+  "alt": "Pop-up de Telefonía Rufus: Recarga y gana. Cada recarga suma Puntos Rufus.",
+  "prompt": "Vertical 2:3 mobile app pop-up banner for 'Rufus Bank', a fictional, modern and friendly digital bank. Brand mark: a bold geometric letter 'R' monogram with a soft gradient next to the wordmark 'Rufus Bank'. Campaign: 'Telefonía Rufus'. Scene: a smartphone with shiny golden coins and stars bursting out of its screen. Art direction: premium glossy 3D render, soft studio lighting, subtle depth of field, electric cyan (#00D1FF) and deep navy (#0A1A3F) palette with soft neon glows, clean and modern composition with generous negative space, high-end marketing quality. Layout: the 'Rufus Bank' brand mark at the top center; a small campaign label 'TELEFONÍA RUFUS'; a big bold headline 'Recarga y gana'; one short subtitle 'Cada recarga suma Puntos Rufus'; a rounded call to action button that reads 'Recarga ahora' at the bottom; a small close (X) icon in the top right corner like an in-app pop-up. All text in Spanish, spelled exactly as given including accents. No other text. No real brands, no real logos, no real people.",
+  "generator": {
+    "provider": "openai",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1024x1536"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "campaign": "cryptomonedas-rufus",
+  "campaign_name": "CryptoMonedas Rufus",
+  "image_id": "cryptomonedas-rufus-10",
+  "title": "Alto riesgo, alta emoción",
+  "subtitle": "Invierte solo lo que estés dispuesto a perder",
+  "cta": "Conoce los riesgos",
+  "alt": "Pop-up de CryptoMonedas Rufus: Alto riesgo, alta emoción. Invierte solo lo que estés dispuesto a perder.",
+  "prompt": "a neon rollercoaster track shaped like a volatile price chart with a small cart. Hero artwork for a mobile app marketing pop-up of a fictional modern digital bank. Premium glossy 3D render, soft studio lighting, subtle depth of field, neon violet (#8B5CF6), magenta (#EC4899) and near black (#0B0820) palette, futuristic, single hero subject centered with breathing room around it, high-end marketing quality, no text.",
+  "generator": {
+    "provider": "amazon-bedrock",
+    "model": "stability.stable-image-ultra-v1:1",
+    "composition": "scripts/popup_composer.py (Pillow text overlay)",
+    "size": "1024x1536"
+  }
+}

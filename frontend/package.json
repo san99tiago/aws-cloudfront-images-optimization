@@ -1,0 +1,28 @@
+{
+  "name": "rufus-bank-portal",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Rufus Bank campaigns portal: Cognito login, segmented pop-ups and a delivery receipt for every image",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.3.0",
+    "@fontsource-variable/instrument-sans": "^5.3.0",
+    "@fontsource/dm-mono": "^5.3.0",
+    "aws-amplify": "^6.22.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.8"
+  }
+}

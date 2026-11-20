@@ -1,0 +1,30 @@
+[project]
+name = "cloudfront-images-optimization"
+version = "1.0.0"
+description = "Rufus Bank App Images Optimization: best practices to serve campaign images with S3 + Lambda + CloudFront"
+authors = [{ name = "Santiago Garcia Arango" }]
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "aws-cdk-lib (>=2.277.0,<3.0.0)",
+    "constructs (>=10.8.1,<11.0.0)",
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.2.0"
+boto3 = "^1.44.7"
+pillow = "^13.0.0"
+requests = "^2.32.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["infrastructure/cdk", "backend"]
+addopts = "-q"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

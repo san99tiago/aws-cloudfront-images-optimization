@@ -1,0 +1,16 @@
+{
+  "campaign": "rufus-bolsillos-rentables",
+  "campaign_name": "Rufus Bolsillos Rentables",
+  "image_id": "rufus-bolsillos-rentables-03",
+  "title": "Rentabilidad diaria",
+  "subtitle": "Ganas intereses todos los días",
+  "cta": "Ver tasa",
+  "alt": "Pop-up de Rufus Bolsillos Rentables: Rentabilidad diaria. Ganas intereses todos los días.",
+  "prompt": "an elegant hourglass with green leaves and golden coins growing inside it. Hero artwork for a mobile app marketing pop-up of a fictional modern digital bank. Premium glossy 3D render, soft studio lighting, subtle depth of field, fresh mint green (#10B981), emerald, white and soft cream palette, optimistic and calm, single hero subject centered with breathing room around it, high-end marketing quality, no text.",
+  "generator": {
+    "provider": "amazon-bedrock",
+    "model": "stability.stable-image-ultra-v1:1",
+    "composition": "scripts/popup_composer.py (Pillow text overlay)",
+    "size": "1024x1536"
+  }
+}

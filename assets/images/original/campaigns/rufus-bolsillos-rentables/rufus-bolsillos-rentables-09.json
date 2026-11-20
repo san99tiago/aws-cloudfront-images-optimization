@@ -1,0 +1,16 @@
+{
+  "campaign": "rufus-bolsillos-rentables",
+  "campaign_name": "Rufus Bolsillos Rentables",
+  "image_id": "rufus-bolsillos-rentables-09",
+  "title": "Ahorra con Rufus",
+  "subtitle": "Tu mejor amigo para ahorrar",
+  "cta": "Empieza",
+  "alt": "Pop-up de Rufus Bolsillos Rentables: Ahorra con Rufus. Tu mejor amigo para ahorrar.",
+  "prompt": "Rufus, a cheerful golden retriever, hugging a big mint green piggy bank. Hero artwork for a mobile app marketing pop-up of a fictional modern digital bank. Premium glossy 3D render, soft studio lighting, subtle depth of field, fresh mint green (#10B981), emerald, white and soft cream palette, optimistic and calm, single hero subject centered with breathing room around it, high-end marketing quality, no text.",
+  "generator": {
+    "provider": "amazon-bedrock",
+    "model": "stability.stable-image-ultra-v1:1",
+    "composition": "scripts/popup_composer.py (Pillow text overlay)",
+    "size": "1024x1536"
+  }
+}

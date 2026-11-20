@@ -1,0 +1,16 @@
+{
+  "campaign": "creditos-rufus",
+  "campaign_name": "Créditos Rufus",
+  "image_id": "creditos-rufus-02",
+  "title": "Crédito de vehículo",
+  "subtitle": "Estrena carro con cuotas a tu medida",
+  "cta": "Cotiza ya",
+  "alt": "Pop-up de Créditos Rufus: Crédito de vehículo. Estrena carro con cuotas a tu medida.",
+  "prompt": "Vertical 2:3 mobile app pop-up banner for 'Rufus Bank', a fictional, modern and friendly digital bank. Brand mark: a bold geometric letter 'R' monogram with a soft gradient next to the wordmark 'Rufus Bank'. Campaign: 'Créditos Rufus'. Scene: a shiny electric car with a big golden ribbon bow in a bright showroom. Art direction: premium glossy 3D render, soft studio lighting, subtle depth of field, warm amber gold (#FFB020) and deep navy (#0A1A3F) palette, elegant and trustworthy, clean and modern composition with generous negative space, high-end marketing quality. Layout: the 'Rufus Bank' brand mark at the top center; a small campaign label 'CRÉDITOS RUFUS'; a big bold headline 'Crédito de vehículo'; one short subtitle 'Estrena carro con cuotas a tu medida'; a rounded call to action button that reads 'Cotiza ya' at the bottom; a small close (X) icon in the top right corner like an in-app pop-up. All text in Spanish, spelled exactly as given including accents. No other text. No real brands, no real logos, no real people.",
+  "generator": {
+    "provider": "openai",
+    "model": "gpt-image-2",
+    "quality": "high",
+    "size": "1024x1536"
+  }
+}

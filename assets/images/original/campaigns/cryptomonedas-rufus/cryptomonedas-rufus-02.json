@@ -1,0 +1,16 @@
+{
+  "campaign": "cryptomonedas-rufus",
+  "campaign_name": "CryptoMonedas Rufus",
+  "image_id": "cryptomonedas-rufus-02",
+  "title": "Ethereum y más",
+  "subtitle": "Más de 20 criptomonedas disponibles",
+  "cta": "Explorar",
+  "alt": "Pop-up de CryptoMonedas Rufus: Ethereum y más. Más de 20 criptomonedas disponibles.",
+  "prompt": "a floating translucent crystal diamond token surrounded by smaller orbiting crypto tokens. Hero artwork for a mobile app marketing pop-up of a fictional modern digital bank. Premium glossy 3D render, soft studio lighting, subtle depth of field, neon violet (#8B5CF6), magenta (#EC4899) and near black (#0B0820) palette, futuristic, single hero subject centered with breathing room around it, high-end marketing quality, no text.",
+  "generator": {
+    "provider": "amazon-bedrock",
+    "model": "stability.stable-image-ultra-v1:1",
+    "composition": "scripts/popup_composer.py (Pillow text overlay)",
+    "size": "1024x1536"
+  }
+}
